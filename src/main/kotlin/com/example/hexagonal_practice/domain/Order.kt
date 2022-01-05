@@ -8,7 +8,7 @@ import javax.persistence.Id
 class Order(
 
     @Id
-    val id: String,
+    val id: Long,
     var money: Int
 
 ) {
